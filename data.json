@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Ingatlaniroda",
-    "photo_url": "...",
+    "photo_url": "https://res.cloudinary.com/daldn0c7g/image/upload/v1740729155/portfolio%20project/osw45kpnpilt4pw9aphf.png",
     "repo-link": "https://github.com/Flerzy/webfelmero",
     "topics": [
       "fetch API",
@@ -17,7 +17,7 @@
   {
     "id": "2",
     "title": "Profile Cards",
-    "photo_url": "...",
+    "photo_url": "https://res.cloudinary.com/daldn0c7g/image/upload/v1740728943/portfolio%20project/wnyulvnihr4gyexpldck.png",
     "repo-link": "https://github.com/Flerzy/profileCards",
     "topics": [
       "fetch API",
@@ -32,7 +32,7 @@
   {
     "id": "3",
     "title": "Viragbolt",
-    "photo_url": "...",
+    "photo_url": "https://res.cloudinary.com/daldn0c7g/image/upload/v1740729156/portfolio%20project/r7qamzxelbime6qjdv9c.png",
     "repo-link": "https://github.com/Flerzy/viragbolt",
     "topics": [
       "fetch API",
@@ -47,7 +47,7 @@
   {
     "id": "4",
     "title": "Auto kereskedelem",
-    "photo_url": "...",
+    "photo_url": "https://res.cloudinary.com/daldn0c7g/image/upload/v1740729158/portfolio%20project/bvqbrkhfskqpdvp1jovu.png",
     "repo-link": "https://github.com/Flerzy/autokereskedelem",
     "topics": [
       "fetch API",
@@ -62,7 +62,7 @@
   {
     "id": "5",
     "title": "Unsplash",
-    "photo_url": "...",
+    "photo_url": "https://res.cloudinary.com/daldn0c7g/image/upload/v1740729155/portfolio%20project/osw45kpnpilt4pw9aphf.png",
     "repo-link": "https://github.com/Flerzy/unsplash",
     "topics": [
       "fetch API",
