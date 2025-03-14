@@ -1,13 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 * {
-    overflow: hidden;
     font-family: "Roboto", sans-serif;
 }
 
 #pKep {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 100%;
     object-fit: cover;
     border: 3px solid red;
 }
@@ -15,14 +14,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 200vh;
     background-color: #f0f0f0;
 }
 nav {
     display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 98vw;
     min-height: 50px;
     max-height: 100px;
     padding: 1rem;
@@ -36,6 +38,8 @@ ul {
 }
 nav ul {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -69,6 +73,7 @@ section {
 .aboutMe {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -91,16 +96,20 @@ section {
 #btns {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background-color: #f0f0f0;
     margin-top: 10rem;
 }
 .btn {
-    padding: 10px 20px;
+    padding: 10px;
     margin: 10px;
+    width: 100px;
+    height: 20px;
+    text-align: center;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: red;
     color: #fff;
     cursor: pointer;
@@ -108,11 +117,72 @@ section {
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: blue;
 }
 
 blockquote {
     border-left: 5px solid red;
     padding: 20px;
     text-align: center;
+}
+#karika {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    margin-right: 1rem;
+}
+
+.logo {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#port {
+    font-size: 1rem;
+    color: gray;
+}
+.NLD {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+.NLD p {
+    font-size: 2rem;
+    margin: 0;
+}
+.rolam p {
+    margin: 0;
+    max-width: 800px;
+}
+#Rolam {
+    justify-content: flex-start;
+}
+.rolam {
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    #port {
+        display: none;
+    }
+    nav ul {
+        font-size: 1rem;
+    }
+    .NLD p {
+        font-size: 1.5rem;
+    }
+    nav ul li {
+        margin-left: 8px;
+    }
+    #karika {
+        margin-right: 8px;
+    }
+    nav {
+        padding-top: 2rem;
+    }
 }
