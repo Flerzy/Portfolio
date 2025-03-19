@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
         <script src="script.js" defer></script>
+        <script src="getData.js"></script>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
@@ -13,28 +14,33 @@
                 <div class="logo">
                     <div id="karika"></div>
                     <div class="NLD">
-                        <p>ND</p>
+                        <a id="ND" href="#abme">ND</a>
                         <p id="port">Portfolio</p>
                     </div>
                 </div>
                 <ul>
-                    <li><a href="#about">Rolam</a></li>
-                    <li><a href="#work">Munkaim</a></li>
-                    <li><a href="#contact">Kapcsolat</a></li>
+                    <li><a href="#Rolam">Rolam</a></li>
+                    <li><a href="#Munkaim">Munkaim</a></li>
+                    <li><a href="#kapcsolat">Kapcsolat</a></li>
                 </ul>
             </nav>
-            <section>
+            <section id="abme">
                 <div class="aboutMe">
                     <img src="me.jpeg" id="pKep" alt="sajat foto" />
                     <div>
                         <h1>Nalivajko David</h1>
-                        <blockquote>"Web design is my passion😎"</blockquote>
+                        <blockquote>
+                            "Web design is my passion😎"<span
+                                style="font-size: 0.5rem; color: grey"
+                                >100% truth</span
+                            >
+                        </blockquote>
                     </div>
                 </div>
                 <div id="btns">
-                    <a href="#Rolam" class="btn">Rolam</a>
-                    <a href="#work" class="btn">Munkaim</a>
-                    <a href="#work" class="btn">Kapcsolat </a>
+                    <a href="#Rolam" class="btn"><p>Rolam</p></a>
+                    <a href="#Munkaim" class="btn"> <p>Munkaim</p></a>
+                    <a href="#kapcsolat" class="btn"><p>Kapcsolat</p></a>
                 </div>
             </section>
             <section id="Rolam">
@@ -46,6 +52,52 @@
                         tempora officia! Inventore fuga veniam labore beatae!
                         Quibusdam ipsa aliquam assumenda temporibus ea ad sequi?
                     </p>
+                </div>
+            </section>
+            <section id="Munkaim">
+                <div class="munkak">
+                    <h2 id="mkh2">Munkáim</h2>
+                </div>
+            </section>
+            <section id="kapcsolat">
+                <h1>Kapcsolat</h1>
+                <div class="kapcsolat">
+                    <div class="elerheto">
+                        <h3>Elérhetőségeink</h3>
+                        <p>gmail</p>
+                        <p>+36</p>
+                        <p>6000 Kecskemét</p>
+                    </div>
+                    <div class="contactform">
+                        <h2>Contact form</h2>
+                        <input
+                            type="text"
+                            placeholder="First name"
+                            id="first-name"
+                        />
+                        <input
+                            type="text"
+                            placeholder="Last name"
+                            id="last-name"
+                        />
+                        <input type="email" placeholder="Email" id="email" />
+                        <input
+                            type="tel"
+                            placeholder="Phone number"
+                            id="phone-number"
+                        />
+                        <textarea placeholder="Message" id="message"></textarea>
+                        <button type="submit">Submit</button>
+                    </div>
+                    <div id="gugli">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.3772211670625!2d19.68517667673459!3d46.917707871134944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4743da039cc46819%3A0x76e03484e50b2f33!2zS2Vjc2tlbcOpdGkgU1pDIEthbmTDsyBLw6FsbcOhbiBUZWNobmlrdW0!5e1!3m2!1sen!2shu!4v1742374179549!5m2!1sen!2shu"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
                 </div>
             </section>
         </div>

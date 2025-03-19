@@ -4,8 +4,8 @@
 }
 
 #pKep {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 100%;
     object-fit: cover;
     border: 3px solid red;
@@ -14,8 +14,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 200vh;
+    height: auto;
     background-color: #f0f0f0;
+}
+#abme {
+    width: 100%;
 }
 nav {
     display: flex;
@@ -78,10 +81,10 @@ section {
     justify-content: center;
     width: 100%;
     height: auto;
-    background-color: #f0f0f0;
 }
 .aboutMe h1 {
     margin-left: 1rem;
+    font-size: 2rem;
 }
 
 .buttons {
@@ -90,7 +93,6 @@ section {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f0f0f0;
 }
 
 #btns {
@@ -99,17 +101,20 @@ section {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-color: #f0f0f0;
     margin-top: 10rem;
+}
+.btn p {
+    margin: 0;
+    padding: 0;
 }
 .btn {
     padding: 10px;
     margin: 10px;
-    width: 100px;
+    width: 200px;
     height: 20px;
     text-align: center;
     border: none;
-    border-radius: 10px;
+    border-radius: 16px;
     background-color: red;
     color: #fff;
     cursor: pointer;
@@ -117,7 +122,7 @@ section {
 }
 
 .btn:hover {
-    background-color: blue;
+    background-color: #ff785a;
 }
 
 blockquote {
@@ -151,6 +156,12 @@ blockquote {
     align-items: flex-end;
     justify-content: center;
 }
+#ND {
+    font-size: 2rem;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
 .NLD p {
     font-size: 2rem;
     margin: 0;
@@ -163,9 +174,167 @@ blockquote {
     justify-content: flex-start;
 }
 .rolam {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.munkak {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: white;
+}
+.munka {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: 80%;
+    border: 3px solid red;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.munka img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+#Munkaim {
+    height: auto;
+    width: 100vw;
+}
+.adat {
+    width: 45%;
+    height: 100%;
+}
+.adat hr {
+    border: none;
+    border-top: 1px solid red;
+    margin: 10px 0;
+}
+.adat ul {
+    list-style-type: disc;
+}
+.adat li {
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.adat a {
+    width: 100%;
+    display: block;
+    text-align: end;
+    color: red;
+}
+#mkh2 {
+    width: 80%;
+}
+
+#kapcsolat {
+    height: auto;
+    width: 100vw;
+    background-color: #333333;
+    color: white;
+    min-height: 100vh;
+    height: auto;
+    flex-direction: unset;
+    align-items: unset;
+}
+#kapcsolat h1 {
+    width: 100%;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.kapcsolat {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.contactform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 25%;
+    min-width: 200px;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    color: black;
+}
+.contactform h2 {
+    color: red;
+}
+.contactform input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.contactform textarea {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.contactform button {
+    width: 90%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.elerheto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 300px;
+    min-width: 200px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.elerheto p {
+    padding: 0;
+    margin: 10px;
+    margin-left: 25px;
+}
+
+#gugli {
+    width: 300px;
+    height: 500px;
+}
+#gugli iframe {
+    width: 100%;
+    height: 100%;
+}
 @media (max-width: 768px) {
     #port {
         display: none;
@@ -176,6 +345,9 @@ blockquote {
     .NLD p {
         font-size: 1.5rem;
     }
+    #ND {
+        font-size: 1.5rem;
+    }
     nav ul li {
         margin-left: 8px;
     }
@@ -184,5 +356,21 @@ blockquote {
     }
     nav {
         padding-top: 2rem;
+    }
+    .adat {
+        width: 100%;
+    }
+    .munka img {
+        width: 100%;
+        height: auto;
+    }
+    .contactform {
+        width: 80%;
+    }
+    .elerheto {
+        text-align: center;
+    }
+    .elerheto p {
+        margin: 0;
     }
 }
